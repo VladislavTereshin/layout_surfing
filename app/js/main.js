@@ -147,4 +147,35 @@ $('.menu-btn').on('click', function(){
 
 new WOW().init();
 
+
+let alle =[
+  {
+    arr: 12,
+  css: "df",
+  eee: "ym"
+  },
+  {
+    arr: 12,
+  css: "df",
+  eee: "ym"
+  },
+  {
+    arr: 14,
+  css: "df",
+  eee: "ym"
+  },
+
+];
+
+class items {
+  render(){
+    alle.forEach(({arr,css,eee}) => {
+      console.log(arr);
+    });
+  }
+}
+
+let item = new items();
+item.render();
+
 });
